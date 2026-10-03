@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Databases and cluster
+.pgdata/
+*.sqlite
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.npm
+*.tsbuildinfo
+next-env.d.ts
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
